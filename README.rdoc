@@ -1,29 +1,17 @@
-== README
+To view the "Mack Address" of the machine follow the steps:-
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Go to gem file and copy this gem name.
+1. gem 'macaddr', '~> 1.7.1'
 
-Things you may want to cover:
+Install bundle in tha app.
+2. Bundle
 
-* Ruby version
+Access in related folder (controller)
+3. require 'macaddr'
 
-* System dependencies
+To get "Mac Address"   
+4. Mac.addr 
 
-* Configuration
+and We will have the mack address in a formate as: 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
+60:60:60:60:1c:d1
